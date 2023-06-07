@@ -31,8 +31,24 @@ nav{
    
    
      .menu-producet{
-        .detalis {
+        .detalis-1 {
             display: none;            
+          }
+          .detalis-2{
+            display: none;
+           
+          }
+          .detalis-3{
+            display: none;
+          }
+          .detalis-4{
+            display: none;
+          }
+          .detalis-5{
+            display: none;
+          }
+          .detalis-6{
+            display: none;
           }
 
        
@@ -46,7 +62,7 @@ nav{
           
         }
         .dropstart .dropdown-toggle::before {
-            // top:23px;
+        
             position: absolute;
              left: 0px;
              top: 50%;
@@ -80,7 +96,7 @@ nav{
 
       }
 
-    .active ,li a:hover{
+    .active ,li a.main:hover{
        
         background:#dc5726 ;
         color: white;
@@ -113,16 +129,38 @@ nav{
 
 }
 
- .menu-producet:hover .detalis {
+ .menu-producet .product:hover .detalis-1 {
     display: block !important;
+    margin-top: 10px;
+ 
 }
-.detalis{
+.menu-producet   .spread:hover .detalis-2 {
+    display: block !important;
+    margin-top: -30px !important;
+}
+.menu-producet   .accossri-man:hover .detalis-3 {
+    display: block !important;
+    margin-top: -70px !important;
+}
+.menu-producet .accossari-women:hover .detalis-4{
+    display: block !important;
+    margin-top: -110px ;
+}
+.menu-producet .bags:hover  .detalis-5{
+    display: block !important;
+    margin-top: -150px;
+}
+.menu-producet .moda:hover .detalis-6 {
+    display: block;
+    margin-top: -200px;
+}
+
+.detalis-1,.detalis-2 , .detalis-3 ,.detalis-4  ,.detalis-5 , .detalis-6{
     font-family: 'Amazon Ember', arial, helvetica, sans-serif;
     position: absolute;
     top:0px;
-  
     right:230px;
-    background: white;
+    
     li{
         list-style: none;
 
@@ -134,7 +172,7 @@ nav{
     }
     .dropdown-menu-category-title {
         font-weight: 500;
-        // color: #dc5726;
+    
         font-size: 18px;
     }
     .dropdown-menu-category-list > li > p {
@@ -146,13 +184,15 @@ nav{
     .dropdown-menu-category-list > li > a {
         color: #595959;
     }
-    .dropdown-menu-category-list > li:hover > a {
-        color: #dc5726;
+  
+    ul li a:hover{
+        color: #dc5726 !important;
         transition: all 0.3s ease-out;
+
     }
     .background-imag{
        position: absolute;
-       bottom:0px;
+       bottom:-40px;
      
        left:0px !important;
        
@@ -162,10 +202,9 @@ nav{
         margin-bottom: 0 !important;
         padding: 0 !important;
     }
-    
 
     
-    
 }
+
 
 
